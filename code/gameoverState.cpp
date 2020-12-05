@@ -13,6 +13,7 @@ gameoverState::gameoverState(app * tEngine, sf::RenderWindow * tWindow)
 {
 	window = tWindow;
 	engine = tEngine;
+	backImage = nullptr;
 
 	init();
 }
@@ -66,7 +67,7 @@ void gameoverState::handleEvents()
 
 			switch (event.key.code)
 			{
-			case sf::Keyboard::Enter:
+			case sf::Keyboard::Return:
 				engine->changeState(MENU);
 				break;
 			}
@@ -91,7 +92,9 @@ void gameoverState::scale()
 {
 	int backgroundId = rand() % 3 + 1;
 
-	delete backImage;
+	if (backImage) {
+		delete backImage;
+	}
 
 	switch (backgroundId)
 	{

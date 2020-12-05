@@ -1,6 +1,6 @@
 #pragma once
 #include <deque>
-#include<vector>
+#include <vector>
 
 static void generateNoise(const std::deque<float> &seed, std::deque<float> & result, int octaves, float bias)
 {

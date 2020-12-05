@@ -1,0 +1,1 @@
+clang++-11 code/*.cpp -o foxy-journey -g -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system

@@ -2,7 +2,8 @@
 #include "biom.h"
 #include "physicObject.h"
 
-#include <SFML\Graphics.hpp>
+#include <SFML/Graphics.hpp>
+
 #include <deque>
 
 class biomManager : public sf::Drawable, public sf::Transformable

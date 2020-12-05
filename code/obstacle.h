@@ -1,6 +1,8 @@
 #pragma once
 #include "physicObject.h"
-#include <SFML\Graphics.hpp>
+
+#include <SFML/Graphics.hpp>
+
 class obstacle :  public sf::CircleShape
 {
 public:

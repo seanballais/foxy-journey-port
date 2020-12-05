@@ -3,7 +3,7 @@
 #include<deque>
 #include<vector>
 
-#include <SFML\Graphics.hpp>
+#include <SFML/Graphics.hpp>
 
 #include "Camera.h"
 #include "obstacle.h"

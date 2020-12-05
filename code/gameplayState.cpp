@@ -1,3 +1,5 @@
+#include <cmath>
+
 #include "gameplayState.h"
 #include "app.h"
 

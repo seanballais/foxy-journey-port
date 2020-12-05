@@ -1,9 +1,9 @@
 #pragma once
 
-#include<deque>
-#include<vector>
+#include <deque>
+#include <vector>
 
-#include <SFML\Graphics.hpp>
+#include <SFML/Graphics.hpp>
 
 #include "Camera.h"
 
